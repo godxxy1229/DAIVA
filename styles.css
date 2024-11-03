@@ -1,7 +1,7 @@
-/* 폰트 */
+/* ?룿?듃 */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
 
-/* 전체 스타일 */
+/* ?쟾泥? ?뒪????씪 */
 body {
   font-family: 'Poppins', sans-serif;
   background-color: #fffff5;
@@ -12,7 +12,7 @@ body {
   z-index: 1;
 }
 
-/* 헤더 */
+/* ?뿤?뜑 */
 header {
   background-color: #333;
   color: #fff;
@@ -22,35 +22,30 @@ header {
   align-items: center;
 }
 
-h1 {
-  font-size: 2em;
-  color: #333;
-  margin-bottom: 20px;
-}
-
 .admin-login {
   display: inline-block;
   padding: 15px 30px;
   font-size: 1em;
   font-weight: bold;
   color: #fff;
-  background-color: #007bff;
+  background-color: #4caf50;
   border-radius: 25px;
   text-decoration: none;
   transition: transform 0.2s, background-color 0.2s;
+  pointer-events: auto; /* 클릭 가능하도록 설정 */
 }
 
 .admin-login:hover {
-  background-color: #0056b3;
+  background-color: #3c853f;
   transform: scale(1.1);
 }
 
 .admin-login:active {
-  background-color: #004494;
+  background-color: #3c6b3e;
   transform: scale(0.95);
 }
 
-/* 메인 */
+/* 硫붿씤 */
 main {
   max-width: 800px;
   margin: 2rem auto;
@@ -114,7 +109,7 @@ main {
   color: #666;
 }
 
-/* 푸터 */
+/* ?뫖?꽣 */
 footer {
   background-color: #333;
   color: #fff;
@@ -124,22 +119,22 @@ footer {
   z-index: 1;
 }
 
-/* 배경 */
+/* 諛곌꼍 */
 .pill-background {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url('pill-silhouette.png'); /* 여기에 알약 실루엣 이미지 파일 경로를 넣으세요 */
+  background-image: url('pill-silhouette.png'); /* ?뿬湲곗뿉 ?븣?빟 ?떎猷⑥뿣 ?씠誘몄?? ?뙆?씪 寃쎈줈瑜? ?꽔?쑝?꽭?슂 */
   background-repeat: no-repeat;
   background-position: center;
   background-size: 50%;
   opacity: 0.1;
-  z-index: 0;
+  z-index: -1;
 }
 
-/* 반응형 디자인 */
+/* 諛섏쓳?삎 ?뵒?옄?씤 */
 @media (max-width: 768px) {
   .service {
     max-width: 100%;
